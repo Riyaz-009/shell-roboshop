@@ -1,9 +1,9 @@
 #!/bin/bash
 
 AMI_ID="ami-09c813fb71547fc4f"
-SG_ID="sg-0e1fc498209f6a252" # replace with your SG ID
+SG_ID="sg-0e1fc498209f6a252" # replace with your SGID
 INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
-ZONE_ID="Z0560988343HP0NRJ3J2D" # replace with your ZONE ID
+ZONE_ID="Z0560988343HP0NRJ3J2D" # replace with your ZONEID
 DOMAIN_NAME="daws84s.fun" # replace with your domain
 
 #for instance in ${INSTANCES[@]}
